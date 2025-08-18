@@ -1,0 +1,40 @@
+/* Menu transition styles */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.menu-enter {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+.menu-exit {
+  animation: fadeOut 0.3s ease-in forwards;
+}
+
+/* Prevent content shift when menu opens */
+body.menu-open {
+  overflow: hidden;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .menu-container {
+    position: static;
+    background: transparent;
+    backdrop-filter: none;
+  }
+}
