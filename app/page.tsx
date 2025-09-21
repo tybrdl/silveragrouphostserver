@@ -37,7 +37,7 @@ export default function Home() {
         <section className="relative h-screen flex items-center justify-center text-white">
           <div className="absolute inset-0 bg-black">
             <Image
-              src="https://e8ljj1chplhqghas.public.blob.vercel-storage.com/blob-2025-04-15%20at%2014.27.32-8Ejz2kunqinAzEYjvasAAS0VhH0C2Y.jpg"
+              src="https://e8ljj1chplhqghas.public.blob.vercel-storage.com/blob-2025-04-15%20at%2014.29.50-7kBlRfK7mssBeQSTjY4YXwTUNErXGu.jpg"
               alt="Hero background"
               fill
               className="object-cover opacity-50 animate-scale"
