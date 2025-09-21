@@ -331,7 +331,7 @@ export default function AboutPage() {
                   <ScrollReveal direction="left">
                     <div className="relative aspect-video overflow-hidden rounded-lg">
                       <Image
-                        src="/placeholder.svg?height=720&width=1280"
+                        src="https://e8ljj1chplhqghas.public.blob.vercel-storage.com/blob-2025-04-15%20at%2014.29.50-7kBlRfK7mssBeQSTjY4YXwTUNErXGu.jpg"
                         alt="Global map"
                         width={1280}
                         height={720}
@@ -348,19 +348,19 @@ export default function AboutPage() {
                       </p>
                       <div className="grid grid-cols-2 gap-4">
                         <div className="bg-zinc-900 p-4 rounded-lg">
-                          <div className="text-3xl font-bold mb-2">15</div>
+                          <div className="text-3xl font-bold mb-2">1</div>
                           <div className="text-zinc-400">Countries</div>
                         </div>
                         <div className="bg-zinc-900 p-4 rounded-lg">
-                          <div className="text-3xl font-bold mb-2">24</div>
+                          <div className="text-3xl font-bold mb-2">2</div>
                           <div className="text-zinc-400">Offices</div>
                         </div>
                         <div className="bg-zinc-900 p-4 rounded-lg">
-                          <div className="text-3xl font-bold mb-2">2,500+</div>
+                          <div className="text-3xl font-bold mb-2">4+</div>
                           <div className="text-zinc-400">Employees</div>
                         </div>
                         <div className="bg-zinc-900 p-4 rounded-lg">
-                          <div className="text-3xl font-bold mb-2">1,000+</div>
+                          <div className="text-3xl font-bold mb-2">85</div>
                           <div className="text-zinc-400">Projects</div>
                         </div>
                       </div>
